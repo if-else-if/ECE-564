@@ -1,0 +1,182 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v
+T_opt
+!s110 1638220617
+VGCSG31Y58zPPCaYlNFkmo2
+04 6 4 work tb_top fast 0
+=1-54bf646888fc-61a54348-69d47-7378
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+vController
+Z2 !s110 1638220607
+!i10b 1
+!s100 IIKAO2La`DnjlQ_6DAVF]0
+!s11b 3f^KCgD9WCAOce]ibAQ>T2
+I2M07N>aD<i3K;Mo4a8Wij2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1637198268
+8/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/Controller.v
+F/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/Controller.v
+L0 1
+Z5 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z6 !s108 1638220607.000000
+Z7 !s107 sram.sv|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/top_without_mem.v|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/sram.sv|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/PC.v|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/MyDesign_tb.sv|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/Datapath.v|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/Controller.v|
+Z8 !s90 -reportprogress|300|-work|work|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/Controller.v|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/Datapath.v|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/MyDesign_tb.sv|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/PC.v|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/sram.sv|/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/top_without_mem.v|
+!i113 0
+Z9 o-work work
+R1
+n@controller
+vDatapath
+R2
+!i10b 1
+!s100 FF>8;0KERHWH`232dS`^V3
+!s11b 3Ynl?J_nc^i;gAJzl9nT?3
+IiXO_9XAFl>IX<Vcf_8aQ]3
+R3
+R0
+R4
+Z10 8/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/Datapath.v
+Z11 F/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/Datapath.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@datapath
+vMyDesign
+R2
+!i10b 1
+!s100 IgGm24GOAi@GnHHLi^;8=1
+!s11b R71g^`g`HO60_7j^I2en]2
+I8mGPG96ASWJYH81gF=CCO2
+R3
+R0
+R4
+8/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/top_without_mem.v
+F/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/top_without_mem.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@my@design
+vProgram_Counter
+R2
+!i10b 1
+!s100 4GU_J0dM51JS8:8MF11P^1
+!s11b [VPC<=HlFZ^bK]WNoM^201
+I0m@L6MeAdo_oQ:mQN^NEI3
+R3
+R0
+R4
+8/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/PC.v
+F/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/PC.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@program_@counter
+vsram
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 fa@MZXUT`ETgfbjA@`W>g2
+!s11b =fQ7^BdgkZWiK6^b5FA<03
+I0Z9ojn8:1a@X]HI2lNMOj2
+R3
+S1
+R0
+R4
+8/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/sram.sv
+F/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/sram.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vTable
+R2
+!i10b 1
+!s100 Cd4m4>M;9UnK=LUP9M9N[0
+!s11b 77PS]k6?JfJFeV7=W`KDo3
+IU3d^]4IeX0H9Nl]9PFPkC2
+R3
+R0
+R4
+R10
+R11
+L0 286
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@table
+vtb_top
+R12
+R2
+!i10b 1
+!s100 jjJh7GmGkAJ>FDDlYN5an2
+!s11b [J<eGlAg;n@SNJmg@^`Yd0
+I6h<WcWbU:5:H4aiO7FCC;0
+R3
+S1
+R0
+R4
+8/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/MyDesign_tb.sv
+F/afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/MyDesign_tb.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

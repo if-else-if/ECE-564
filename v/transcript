@@ -1,0 +1,175 @@
+# //  ModelSim SE-64 2019.2 Apr 16 2019 Linux 3.10.0-1160.49.1.el7.x86_64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim tb_top 
+# Start time: 16:29:57 on Nov 29,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb_top(fast)
+# Loading work.MyDesign(fast)
+run -all
+# -------------------------------start_simulation-------------------------------
+# 
+# INFO::readmem : input_0/input_sram.dat 
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:000, Data:000a
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:001, Data:000a
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:002, Data:03fe
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:003, Data:033d
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:004, Data:00fb
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:005, Data:0386
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:006, Data:03da
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:007, Data:03fe
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:008, Data:036b
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:009, Data:037e
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:00a, Data:0318
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:00b, Data:0178
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:00c, Data:0010
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:00d, Data:0010
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:00e, Data:f3b6
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:00f, Data:eedd
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:010, Data:4dbb
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:011, Data:ffcb
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:012, Data:dfff
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:013, Data:f746
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:014, Data:fd7f
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:015, Data:fc0a
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:016, Data:cbde
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:017, Data:5ff5
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:018, Data:7dfe
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:019, Data:ffb6
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:01a, Data:d04b
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:01b, Data:db6e
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:01c, Data:d871
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:01d, Data:58de
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:01e, Data:000c
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:01f, Data:000c
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:020, Data:0fd6
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:021, Data:0ecd
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:022, Data:05eb
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:023, Data:0fcb
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:024, Data:0ff3
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:025, Data:0fc6
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:026, Data:07de
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:027, Data:0dfe
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:028, Data:0d0b
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:029, Data:0dbe
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:02a, Data:0c31
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:02b, Data:0400
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:02c, Data:00ff
+# INFO::readmem file contents : input_0/input_sram.dat  : Addr:02c, Data:00ff
+# INFO::readmem : input_0/weight_sram.dat 
+# INFO::readmem file contents : input_0/weight_sram.dat  : Addr:000, Data:0003
+# INFO::readmem file contents : input_0/weight_sram.dat  : Addr:001, Data:018d
+# INFO::readmem file contents : input_0/weight_sram.dat  : Addr:001, Data:018d
+# INFO::readmem file contents : input_0/weight_sram.dat  : Addr:001, Data:018d
+# INFO::readmem file contents : input_0/weight_sram.dat  : Addr:001, Data:018d
+# INFO::readmem file contents : input_0/weight_sram.dat  : Addr:001, Data:018d
+# -------------------------------Round 0 start-------------------------------
+# 
+# ** Warning: (vsim-3829) Non-existent associative array entry. Returning default value.
+#    Time: 1125 ns  Iteration: 1  Process: /tb_top/input_mem/#ALWAYS#32 File: /afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/sram.sv Line: 43
+# -------------------------------Round 0 check start-------------------------------
+# 
+# -------------------------------store results to g_result.dat-------------------------------
+# 
+# -------------------------------load results to output_array-------------------------------
+# 
+# -------------------------------load results to golden_output_array-------------------------------
+# 
+# -------------------------------Round 0 start compare -------------------------------
+# 
+# -------------------------------Round 0 Your report-------------------------------
+# 
+# Check 1 : Correct g results = 32/32
+# computeCycle=59
+# ---------------------------------------------------------------------------------
+# 
+# INFO::readmem : input_1/input_sram.dat 
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:000, Data:000a
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:001, Data:000a
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:002, Data:01da
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:003, Data:038d
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:004, Data:01ab
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:005, Data:03de
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:006, Data:03ff
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:007, Data:03fe
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:008, Data:006f
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:009, Data:0356
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:00a, Data:0324
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:00b, Data:017c
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:00c, Data:000c
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:00d, Data:000c
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:00e, Data:0f3e
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:00f, Data:0e6d
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:010, Data:05bb
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:011, Data:0fcb
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:012, Data:0fbf
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:013, Data:0cce
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:014, Data:02de
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:015, Data:0ebe
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:016, Data:0dbb
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:017, Data:0da6
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:018, Data:0c77
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:019, Data:0d8f
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:01a, Data:0010
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:01b, Data:0010
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:01c, Data:e9b6
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:01d, Data:eed1
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:01e, Data:5dff
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:01f, Data:fe0b
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:020, Data:e7ff
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:021, Data:fa46
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:022, Data:e17f
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:023, Data:c80a
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:024, Data:0bde
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:025, Data:3ff1
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:026, Data:7df8
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:027, Data:ffb6
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:028, Data:d843
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:029, Data:db62
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:02a, Data:d87f
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:02b, Data:ffff
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:02c, Data:00ff
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:02c, Data:00ff
+# INFO::readmem file contents : input_1/input_sram.dat  : Addr:02c, Data:00ff
+# INFO::readmem : input_1/weight_sram.dat 
+# INFO::readmem file contents : input_1/weight_sram.dat  : Addr:000, Data:0003
+# INFO::readmem file contents : input_1/weight_sram.dat  : Addr:001, Data:016e
+# INFO::readmem file contents : input_1/weight_sram.dat  : Addr:001, Data:016e
+# INFO::readmem file contents : input_1/weight_sram.dat  : Addr:001, Data:016e
+# -------------------------------Round 1 start-------------------------------
+# 
+# ** Warning: (vsim-3829) Non-existent associative array entry. Returning default value.
+#    Time: 1985 ns  Iteration: 1  Process: /tb_top/input_mem/#ALWAYS#32 File: /afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/sram.sv Line: 43
+# -------------------------------Round 1 check start-------------------------------
+# 
+# -------------------------------store results to g_result.dat-------------------------------
+# 
+# -------------------------------load results to output_array-------------------------------
+# 
+# -------------------------------load results to golden_output_array-------------------------------
+# 
+# -------------------------------Round 1 start compare -------------------------------
+# 
+# -------------------------------Round 1 Your report-------------------------------
+# 
+# Check 1 : Correct g results = 32/32
+# computeCycle=59
+# ---------------------------------------------------------------------------------
+# 
+# ** Note: $finish    : /afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/MyDesign_tb.sv(220)
+#    Time: 2215 ns  Iteration: 1  Instance: /tb_top
+# 1
+# Break at /afs/unity.ncsu.edu/users/v/vsridha2/564/Project_Submission/v/MyDesign_tb.sv line 220
+# End time: 16:30:22 on Nov 29,2021, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2

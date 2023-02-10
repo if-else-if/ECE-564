@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: P-2019.03-SP1
+Date   : Mon Nov 29 16:19:56 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: clk_r_REG65_S5
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: clk_r_REG24_S4
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clk_r_REG65_S5/CK (DFFR_X2)            0.0000     0.0000 r
+  clk_r_REG65_S5/Q (DFFR_X2)             0.7405     0.7405 f
+  U886/ZN (XNOR2_X2)                     0.2676     1.0081 f
+  U1151/ZN (OAI21_X2)                    0.1980     1.2061 r
+  U1731/ZN (NAND2_X2)                    0.0990     1.3050 f
+  U799/ZN (INV_X4)                       0.0832     1.3882 r
+  U897/ZN (XNOR2_X2)                     0.2659     1.6541 r
+  U1030/ZN (XNOR2_X1)                    0.3335     1.9876 r
+  U885/ZN (NAND2_X2)                     0.0993     2.0869 f
+  U684/ZN (NAND2_X2)                     0.1153     2.2022 r
+  clk_r_REG24_S4/D (DFFR_X2)             0.0000     2.2022 r
+  data arrival time                                 2.2022
+
+  clock clk (rise edge)                  2.5000     2.5000
+  clock network delay (ideal)            0.0000     2.5000
+  clock uncertainty                     -0.0500     2.4500
+  clk_r_REG24_S4/CK (DFFR_X2)            0.0000     2.4500 r
+  library setup time                    -0.2477     2.2023
+  data required time                                2.2023
+  -----------------------------------------------------------
+  data required time                                2.2023
+  data arrival time                                -2.2022
+  -----------------------------------------------------------
+  slack (MET)                                       0.0001
+
+
+1
